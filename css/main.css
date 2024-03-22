@@ -129,21 +129,29 @@ section .newsArea_black {
   
 }
 
+
+
 /* 텍스트 위치 조절 */
-section .newsArea_black p1 {
+section.newsArea .newsArea_black p1 {
   /* color: white; */
   margin-left: 36%;
-  
+  margin-top: 25px;
   font-weight: normal;
   font-size: 17px;
   padding: 0 10px;
-  
+  display: block;
+  float: left;
+  padding-left: 50px;
+
 }
 
-section .newsArea_black p2 {
-  
+section.newsArea .newsArea_black p2 {
+  display: block;
   font-size: 14px;
   font-weight: 300;
+  float: left;
+  margin-top: 27px;
+  /* padding-left: 50px; */
 }
 
 section .newsArea_black img {
